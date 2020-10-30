@@ -24,6 +24,7 @@ newRatesBoard.getCourses = () => {
     }
   })
 }
+newRatesBoard.getCourses();
 setInterval(newRatesBoard.getCourses, 60000);
 
 newMoneyManager.addMoneyCallback = data => {
